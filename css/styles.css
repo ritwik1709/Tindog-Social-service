@@ -1,0 +1,165 @@
+body {
+  font-family: Montserrat;
+}
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  /* font-family: ubuntu; */
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: azure;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font: size 1.2rem;
+  font-family: Montserrat;
+}
+.nav-link:hover {
+  color: whitesmoke;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 25%;
+  padding-left: 100px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  /* text-align: center; */
+}
+h3 {
+  font-family: ubuntu;
+  font-weight: bolder;
+  font-size: 18px;
+}
+p {
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Media Query Breakpoints - For Responsiveness of our website */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: Montserrat;
+  padding: 60px;
+}
+#cta h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+#cta button {
+  margin: 30px 10px;
+  border-radius: 40px;
+}
+
+#footer {
+  text-align: center;
+  padding: 85px;
+  padding-right: 5px;
+}
+#footer .fa-brands {
+  padding: 10px;
+}
+#footer .fa-solid {
+  padding: 10px;
+}
+#footer .fa-brands:hover {
+  color: grey;
+}
+#footer .fa-solid:hover {
+  color: grey;
+}
